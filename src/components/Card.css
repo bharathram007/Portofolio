@@ -1,0 +1,39 @@
+
+.project-container{
+    max-width: 60%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:30px;
+    padding-bottom: 1rem;
+}
+.project-card{
+    background:#1a1919;
+    padding :1rem 1rem;
+}
+.projecr-card img{
+    width:100%;
+}
+.project-title{
+    color: white;
+    padding:1rem 0;
+}
+.pro-details p{
+    padding-bottom:1rem;
+    font-size: 1rem;
+    text-align: justify;
+
+}
+.pro-btns{
+   display:flex;
+   justify-content: center;
+}
+
+
+@media screen and (max-width:740px){
+    .project-container{
+        max-width: 90%;
+        margin:auto;
+        grid-template-columns: 1fr;
+    }
+}
